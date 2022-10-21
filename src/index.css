@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  font-family: Monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: Monospace;
+}
+
+
+@font-face {
+  font-family: "Monospace";
+  src: local("Monospace"),
+    url("./assets/fonts/Anonymous.ttf") format("truetype");
+}

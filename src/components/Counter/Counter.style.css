@@ -1,0 +1,43 @@
+.counter-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 150px auto;
+}
+
+.select-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+
+.select-wrapper > select {
+    padding: 15px;
+    width: 150px;
+}
+
+.counter-wrapper {
+    display: flex;
+    width: 100%;
+    margin: auto 15px;
+    max-width: 500px;
+    justify-content: space-around;
+    align-items: center;
+}
+@media screen and (max-width: 540px){
+    .counter-wrapper {
+
+        max-width: 200px;
+    }
+}
+
+.counter-wrapper > button {
+    width: 150px;
+    cursor: pointer;
+}
+
+.counter-wrapper > p {
+    margin: 0 5px;
+}
